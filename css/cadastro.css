@@ -1,0 +1,99 @@
+       *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+            list-style: none;
+            text-decoration: none;
+        }
+        body{
+            background-color:gray;
+        }
+
+
+        button{
+            background-color:orange;
+            border-radius:5px;
+            border: none;
+            padding:8px;
+        }
+        button:hover{
+            background-color:gray;
+        }
+
+
+        input[type="submit"]{
+            background-color:orange;
+            border-radius:5px;
+            border: none;
+            padding:8px;
+        }
+        input[type="submit"]:hover{
+            background-color:gray;
+        }
+
+
+        #navbar{
+            background-color: #F5F5F5;
+            display:flex;
+            justify-content: space-around;
+            padding-top:30px;
+            flex-wrap:wrap;
+        }
+        #navbar ul{
+            display:flex;
+            justify-content: center;
+            flex-wrap:wrap;
+        }
+        #navbar ul li{
+            margin-right: 20px;
+        }
+
+
+        .content{
+            margin:50px;
+            background-color:white;
+            
+        }   
+        .title{
+
+        }
+        .desc{
+            width:30vh;
+            height: 30vh;
+        }
+        .btnn{
+            display:flex;
+            justify-content: center;
+            margin-bottom:10px;
+        }
+        
+        .descc{
+            background-color: white;
+            width:40vh;
+            height: 50vh;
+            margin-top:40px;
+            padding:20px;
+        }
+
+        .row{
+            display:flex;
+            flex-wrap: wrap;
+        }
+
+
+        /*-----------------------------------------*/
+
+        .container{
+            margin-top:10vh;
+            margin-bottom:10vh;
+            display:flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .container form{
+            
+        }
+
+        form [type="text"]{
+            size: 10vh;
+        }
