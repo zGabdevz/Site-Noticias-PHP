@@ -1,3 +1,5 @@
+         /* ------- INDEX.PHP -----------*/
+        
         *{
             margin:0;
             padding:0;
@@ -93,4 +95,91 @@
             display:flex;
             justify-content: space-between;
             flex-wrap: wrap;
+        }
+
+        /* ------- CONTEUDO.PHP -----------*/
+
+        .container{
+            margin-top:5%;
+            margin-bottom:10%;
+
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-wrap:wrap;
+            
+        }
+
+        .container h2{
+            color:white;
+        }
+
+        .container .content-news{
+            font-size:20px;
+
+            background-color: white;
+            border-radius:20px;
+            
+            padding:30px;
+            width: 150vh;
+            height: 150vh;
+            max-width: 150vh;
+            max-height: 150vh;
+        }
+
+        .container .title{
+            display: flex;
+            justify-content: center;
+            flex-wrap:wrap;
+        }
+
+         /* ------- CADASTRAR.PHP -----------*/
+
+        .content{
+            margin:50px;
+            background-color:white;
+            
+        }   
+        .title{
+
+        }
+        .desc{
+            width:30vh;
+            height: 30vh;
+        }
+        .btnn{
+            display:flex;
+            justify-content: center;
+            margin-bottom:10px;
+        }
+        
+        .descc{
+            background-color: white;
+            width:40vh;
+            height: 50vh;
+            margin-top:40px;
+            padding:20px;
+        }
+
+        .row{
+            display:flex;
+            flex-wrap: wrap;
+        }
+
+
+        /*-----------------------------------------*/
+
+        .container{
+            margin-top:10vh;
+            margin-bottom:10vh;
+            display:flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .container form{
+            
+        }
+
+        form [type="text"]{
+            size: 10vh;
         }
